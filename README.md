@@ -1,3 +1,9 @@
+# Modifications to run original phusion baseimage on Raspberry:
+
+* Use resin/rpi-raspbian as base image instead of Ubuntu Xenial
+* Change the way locale is configured
+* Comment out execution of PAM bug fixing script
+
 # A minimal Ubuntu base image modified for Docker-friendliness
 
 [![](https://badge.imagelayers.io/phusion/baseimage:0.9.17.svg)](https://imagelayers.io/?images=phusion/baseimage:latest 'Get your own badge on imagelayers.io')
